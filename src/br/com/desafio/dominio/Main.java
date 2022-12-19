@@ -15,6 +15,7 @@ public class Main {
         curso2.setDescricao("curso javascrit");
         curso2.setCargaHoraria(8);
 
+        conteudo conteudo = new Curso();
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("java");
