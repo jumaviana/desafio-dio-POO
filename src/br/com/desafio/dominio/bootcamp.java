@@ -51,7 +51,7 @@ public class bootcamp {
         return conteudos;
     }
 
-    public void setConteudos(Set<conteudo> conteudos) {
+    public void setConteudos() {
         this.conteudos = conteudos;
     }
 
@@ -67,9 +67,6 @@ public class bootcamp {
     public int hashCode() {
         return Objects.hash(nome, descricao, dataInicial, dataFinal, devsincrito, conteudos);
     }
-    bootcamp bootcamp = new bootcamp();
 
-    bootcamp.Setnome ("bootcamp java devolper");
-    bootcamp.setDescricao (" ");
 
 }
